@@ -1,0 +1,17 @@
+.container-fluid {
+    background-color: cadetblue;
+}
+
+.left-side {
+    width: 20%;
+    background-color: aqua;
+}
+
+.center-side {
+    width: 50%;
+}
+
+.right-side {
+    width: 30%;
+    background-color: bisque;
+}
