@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css';
-import AdminPage from './page/admin';
-// import CenterPage from './page/center'
-// import SearchPage from './page/search'
-// import LeftPage from './page/left'
-// import RightPage from './page/right'
+// import './App.css';
+import LeftPage from './page/LeftPage';
+import RightPage from './page/RightPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <AdminPage />
-      
+    <div className="App container-fluid">
+      <div className="row">
+        <div className="col-sm-3"><LeftPage></LeftPage> </div>
+        <div className="col-sm-9"><RightPage></RightPage> </div>
+       
+      </div>
+
+
     </div>
   );
 }
