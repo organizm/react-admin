@@ -1,10 +1,10 @@
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .navbar-container {
     position: sticky;
     top: 0;
     overflow-y: auto;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .navbar-container .navbar {
     align-items: flex-start;
@@ -23,4 +23,5 @@
   .navbar-container .navbar-nav {
     flex-direction: column !important;
   }
+  
 }

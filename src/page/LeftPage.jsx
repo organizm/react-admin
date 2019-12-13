@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './LeftPage.css';
-import { Route, Link, heshHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 class LeftPage extends Component {
     constructor(props) {
@@ -27,7 +27,7 @@ class LeftPage extends Component {
                         <Link className="nav-link" to ="#link-1">посилання 1</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to ="#link-2">посилання 2</Link>
+                        <Link className="nav-link" to ="/page/Contacts">Контакти</Link>
                       </li>
                       <li className="nav-item">
                         <Link className="nav-link" to ="#link-3">посилання 3</Link>
