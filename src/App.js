@@ -4,7 +4,7 @@ import LeftPage from './page/LeftPage';
 import RightPage from './page/RightPage';
 import Search from './page/Search';
 import LeftIcon from './page/LeftIcon';
-
+import LocalStore from './components/LocalStore';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
        
       </div>
 
-
+      {/* <LocalStore /> */}
     </div>
   );
 }

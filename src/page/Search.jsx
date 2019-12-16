@@ -21,7 +21,7 @@ class Search extends Component {
             <div className="col-12 searchline">
               <form className="form-inline ml-auto mt-2 mt-md-0">
                       
-                <input className="col-12" type="text" name="name" />
+                <input className="col-11" type="text" name="name" />
                       
                 <input type="submit" value="Submit" className="form-control mr-sm-2" />
                       

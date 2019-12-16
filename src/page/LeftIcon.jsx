@@ -20,7 +20,7 @@ class LeftIcon extends Component {
 
         <div className="navbar-container bg-light">
           <div className="name">Назва Проекту</div> 
-          <Link to="#"><Logo /></Link>
+            <Link to="#"><Logo /></Link>
                         
           <h5>LOGIN NAME</h5>
           <h6>myemail@super.com</h6>                
